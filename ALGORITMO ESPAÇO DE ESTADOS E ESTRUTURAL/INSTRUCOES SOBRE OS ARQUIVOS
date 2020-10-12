@@ -1,0 +1,11 @@
+Este diretório contém os arquivos necessários para gerar testes abstratos a partir de um modelo CPN utilizando a abordagem por espaço de estados + estrutural.
+Arquivos:
+
+APCO_CPN.sml: Implementação das funções CPN/ML do algoritmo APCO para geração de testes abstratos.
+SPS_CPN.sml: Implementação das funções CPN/ML do algoritmo SPS para geração de testes absratos.
+Testes.cpn: Arquivo no formato .cpn que pode ser utilizado na ferrameta CPN Tools para utilização das funções. O arquivo já está configurado para utilizá-las.
+Vals.sml: Arquivo que guarda o grafo do espaço de estados e também os intervalos entre portas de entrada e saída das subpáginas do modelo para o qual será gerado os testes 
+abstratos. Esses intervalos de portas de entrada e saída são identificados a partir da leitura do arquivo XML do modelo e devem ser inseridos no arquivo.
+
+
+Todos os arquivos com extensão .sml estão referenciados para uso no arquivo testes.cpn.
