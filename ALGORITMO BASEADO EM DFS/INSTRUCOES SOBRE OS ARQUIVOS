@@ -1,0 +1,10 @@
+Este diretório contém os arquivos necessários para gerar testes abstratos a partir de um modelo CPN.
+Arquivos:
+
+FunctionsCPN.sml e NewCPN.sml: Arquivos onde estão escritas as funções na linguagem CPN/ML para geração dos testes abstratos.
+Testes.cpn: Arquivo no formato .cpn que pode ser utilizado na ferrameta CPN Tools para utilização das funções. O arquivo já está configurado para utilizá-las.
+ValFinalState.sml: Arquivo que possui todos os estados finais do modelo para o qual será gerado os testes abstratos.
+ValGraph.sml: Arquivo que contém o grafo que representa o espaço de estados do modelo para o qual será gerado os testes abstratos.
+writeFile.sml: Função CPN/ML para escrever os testes abstratos encontrados.
+
+Todos os arquivos com extensão .sml estão referenciados para uso no arquivo testes.cpn.
